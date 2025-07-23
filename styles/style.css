@@ -1,0 +1,42 @@
+@import "tailwindcss" /* shared style */ /* font styles */ .inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.frame {
+  width: 1140px;
+  margin: 30px auto;
+}
+.description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.25rem;
+}
+.btn-primary {
+  color: white;
+  background-color: #e95a08;
+  padding: 26px 50px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+/* nav style */
+/* nav {
+  display: flex;
+  
+} */
+
+/* banner styles */
+.span-colour {
+  color: #e95a08;
+}
+
+/* product section */
+.product-section img {
+  width: 100%;
+}
