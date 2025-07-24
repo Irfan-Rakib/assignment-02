@@ -11,7 +11,7 @@ h1 {
 }
 
 .frame {
-  width: 1140px;
+  max-width: 1140px;
   margin: 30px auto;
 }
 .description {
@@ -39,4 +39,10 @@ h1 {
 /* product section */
 .product-section img {
   width: 100%;
+}
+.newslater {
+  max-width: fit-content;
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
 }

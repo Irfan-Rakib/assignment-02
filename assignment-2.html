@@ -15,8 +15,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   </head>
-  <body class="frame inter-font">
-    <header>
+  <body class=" inter-font">
+    <header class="frame">
       <nav class="flex items-center text-center justify-between ">
         <div class="logo">
           <img src="./assets/logo.png" alt="Logo" />
@@ -38,7 +38,7 @@
         </div>
       </section>
     </header>
-    <main>
+    <main class="frame">
         <section class="product mt-32 items-center text-center">
             <div class="product-title">
                 <h1 class="font-bold text-6xl"><span class="span-colour">Our</span> Plants</h1>
@@ -107,7 +107,7 @@
             </ul>
           </div>
         </section>
-        <section class="latest-deals text-center">
+        <section class="latest-deals text-center mb-32">
           <h1 class="font-bold text-6xl"><span class="span-colour">Latest</span>  Deals</h1>
           <p class="description mt-10">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
           <div class="flex gap-8 mt-30">
@@ -136,7 +136,21 @@
           </div>
           </div>
         </section>
+        
     </main>
-    <footer></footer>
+<section class="newslater mt-32 relative">
+          <img src="./assets/news-letter-bg.png" alt="">
+          <div class="absolute inset-0 flex flex-col w-full justify-center items-center text-center px-4 gap-10">
+            <h1 class="text-6xl font-bold text-white">Join the colorful Bunch</h1>
+            <div class=" flex">
+              <input class="bg-white px-4 py-5 w-2xl border-0 " type="email" name="" id="" placeholder="Write email">
+              <button class="btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </section>
+
+    <footer class="frame">
+
+    </footer>
   </body>
 </html>
