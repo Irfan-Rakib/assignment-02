@@ -97,20 +97,19 @@ h1 {
       font-size: 3rem;
     }
     input {
-      flex-grow: 1; /* Allow input to grow and take available space */
-      width: auto; /* Override 100% width from mobile */
-      border-top-right-radius: 0; /* Remove right border-radius for flush look */
+      flex-grow: 1;
+      width: auto;
+      border-top-right-radius: 0;
       border-bottom-right-radius: 0;
     }
     button {
-      width: auto; /* Override 100% width from mobile */
-      border-top-left-radius: 0; /* Remove left border-radius for flush look */
+      width: auto;
+      border-top-left-radius: 0;
       border-bottom-left-radius: 0;
     }
     .c {
-      flex-direction: row; /* Input and button side-by-side */
-      gap: 0; /* No gap when side-by-side */
-      max-width: 500px;
+      flex-direction: row;
+      gap: 0;
     }
     img {
       width: fit-content;
@@ -127,7 +126,7 @@ h1 {
     flex-direction: column;
   }
   .lover-title ul {
-    padding: 0 10px;
+    padding: 0;
   }
   header,
   body,
